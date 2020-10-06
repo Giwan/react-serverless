@@ -1,2 +1,9 @@
 [build]
     functions = "functions"
+
+# routing is handled on the client
+[[redirects]]
+from="/*"
+to="/index.html"
+force=true
+status=200

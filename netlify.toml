@@ -1,9 +1,10 @@
 [build]
     functions = "functions"
+    publish = "build"
+    base = "/"
 
 # routing is handled on the client
 [[redirects]]
-from="/*"
-to="/index.html"
-force=true
-status=200
+    from="/*"
+    to="/index.html"
+    status=200
